@@ -1,34 +1,30 @@
-# Teamup
+# Concept
 
-This repository contains the code for the Teamup platform.
+Veel mensen zien de marathon als een mijlpaal en willen de ervaring meemaken, maar weinig mensen doen het ook daadwerkelijk. Een valkuil is het ontbreken van sportpartners die elkaar motiveren om deze intentie om te zetten tot actie. Hardlopen in groepsverband werkt namelijk voor bepaalde sporters als motiverende factor om hun doel te behalen. Team Up is een platform dat mensen bij elkaar brengt met de intentie om te gaan sporten, waardoor ze elkaar kunnen motiveren om deze gedachte om te zetten naar actie en dus gezamenlijk te trainen voor de marathon.
 
-## Getting Started
+## Mijn werkzaamheden
+Binnen het bovenstaande project heb ik mij bezig gehouden met het aanmaken van een groep. Zie uitwerking in het filmpje hieronder.
+
+https://youtu.be/sWYXodNZRfQ
+
+Link naar code:
+
+https://github.com/michelledewit/projects/blob/master/vue_groepaanmaken/src/views/GroupCreate.vue
+
+## Getting Started for
 These instructions will get you a copy of the project up and running on your development enviroment.
 
 ### Prerequisites
 
 Make sure you have installed all of the following prerequisites on your development enviroment:
-- git
 - npm
 
 ### Setup
 
-```bash
-# Clone project
-git clone https://github.com/Vincelicious/teamup.git
-
-# Change directory
-cd teamup
-
 # Install dependencies
 npm install
 
-# Run local dev server
-npm run dev
-```
+# Run local server
+npm run serve
 
 That's it! The project should be live at `http://localhost:8080`
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
