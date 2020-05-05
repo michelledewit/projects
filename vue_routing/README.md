@@ -1,4 +1,6 @@
-# real-world-vue
+# Vue Routing
+
+Een POC van het werken met Vue routing
 
 ## Project setup
 ```
