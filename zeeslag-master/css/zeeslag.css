@@ -1,0 +1,198 @@
+body{
+	font-family: 'Montserrat';
+	background-color: "#1abc9c";
+	padding: 0;
+	margin: 0;
+	background: #F7F7F7;
+	overflow: hidden;
+}
+
+/* header */
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin: 0em 2em;
+	align-items: center;
+	color: white;
+}
+
+.header h1{
+	display: flex;
+	justify-content: center;
+	color: #18BC9C;
+	font-size: 3.5em;
+	margin-left: 60px;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+#messageArea{
+	margin-right: 40px;
+}
+
+.square_hit{ 
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #18BC9C;
+	width: 60px;
+	height: 60px;
+	font-size: 0.3em;
+	color: white;
+	font-weight: 500;
+	margin-right: 40px;
+}
+
+.square_miss{ 
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #D0D0D0;
+	width: 60px;
+	height: 60px;
+	font-size: 0.3em;
+	color: white;
+	font-weight: 500;
+	margin-right: 20px;
+}
+
+
+/* grid */
+.section-a .grid{
+	height: 100vh;
+	background-color: #18BC9C;
+	display: grid;
+	grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr ;
+}
+
+
+.box{
+	grid-column: span 2;
+}
+
+
+.box:nth-child(2){
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.box h1{
+	display: flex;
+	justify-content: center;
+	color: #f7f7f7;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	padding: 0.5em 0 0 0; 
+}
+
+h3{
+	display: flex;
+	justify-content: center;
+	color: #f7f7f7;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+
+div#board {
+	position: relative;
+	width: 28vw;
+	height: 63vh;
+	background-color: #ffffff;
+	margin-top: 2em;
+	margin-left: 125px;
+	border-radius: 30px;
+	background-image: url("../bck_Tekengebied\ 1.jpg");
+	background-repeat: no-repeat;
+}
+
+
+table {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 35px;
+	border-spacing: 0;
+	background-color: #F6F8F9;
+	border: 1px solid #ACF4E6;
+}
+
+
+tr {
+	height: 4px;
+	border: 1px solid #ACF4E6;
+}
+
+td {
+	width: 42px;
+	height: 42px;
+	border: 1px solid #ACF4E6;
+}
+
+#countdown{
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin: 0;
+	z-index: 100;
+	color: #F7F7F7;
+}
+
+
+form input {
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+	color: #F7F7F7;
+	border: none;
+	outline: none;
+	font-size: 14em;
+	text-align: center; 
+	margin-top: 20px;
+}
+
+.hit {
+	background-color: #18BC9C;
+}
+.miss {
+	background-color: #D0D0D0;
+}
+
+.score{
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	width: 35vw;
+	padding: 15px 0;
+	color: #f7f7f7;
+	background-color: #2C3E50;
+	position: absolute;
+	margin-top: 390px;
+	margin-left: 80px;
+	border-radius: 30px;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+#firebutton{
+	display:none;
+}
+
+#guessInput{
+	text-transform: uppercase;
+}
+
+
+::-webkit-input-placeholder {
+	color: #F7F7F7;
+	opacity: 1;
+ }
